@@ -42,3 +42,12 @@ a {
   height: 100%;
 }
 /* NAVIGATION END */
+
+/* SEARCHBAR START */
+.search-container {
+  height: 100vh;
+}
+
+
+
+/* SEARCHBAR END */
