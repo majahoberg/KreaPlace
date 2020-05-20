@@ -1,7 +1,34 @@
 /* tilføjet for at være sikker på der ikke er en indbygget kant + ALLE ELEMTER MEDREGNER PADDING OG BORDER I DERES STØRRELSE */
-* {  
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box;
-}  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* NAVIGATION START */
+#navlogo {
+  display: flex;
+  width: 100%
+
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  height: 20%;
+  background: #eee;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 0 40px;
+}
+
+#logo {
+  width: 200px;
+  height: 100%;
+}
+/* NAVIGATION END */
