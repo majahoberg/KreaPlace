@@ -11,9 +11,9 @@ body {
 
 /* NAVIGATION START */
 #navlogo {
+  display: block;
   margin: 10px auto;
   width: 150px;
-  text-align: center;
 }
 
 nav {
