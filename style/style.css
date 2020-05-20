@@ -6,7 +6,8 @@
 }
 
 body {
-  background-image: url("images/overskrift-forside.jpg");
+  background-image: url("../images/overskrift-forside.jpg");
+  height: 100vh;
 }
 
 /* NAVIGATION START */
