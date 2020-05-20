@@ -6,15 +6,19 @@
 }
 
 body {
-  background-image: url("../images/overskrift-forside.jpg");
   font-family: 'Raleway', sans-serif;
 }
 
 /* NAVIGATION START */
+main {
+    background-image: url("../images/overskrift-forside.jpg");
+    background-size: cover;
+}
+
 #navlogo {
   display: block;
   margin: 10px auto;
-  width: 150px;
+  width: 190px;
 }
 
 nav {
@@ -23,6 +27,7 @@ nav {
   height: 50%;
   align-items: center;
   justify-content: center;
+  font-size: 15px
 }
 
 a {
