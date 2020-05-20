@@ -5,10 +5,15 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url("images/overskrift-forside.jpg");
+}
+
 /* NAVIGATION START */
 #navlogo {
-  margin: 20px auto;
-  width: 100px;
+  margin: 10px auto;
+  width: 150px;
+  text-align: center;
 }
 
 nav {
@@ -18,7 +23,6 @@ nav {
   background: #eee;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
 a {
