@@ -13,6 +13,7 @@ body {
 main {
     background-image: url("../images/overskrift-forside.jpg");
     background-size: cover;
+    height: 100vh;
 }
 
 #navlogo {
