@@ -5,67 +5,87 @@
 <html lang="da">
 
 <head>
-  <!-- TITLE STÅR I FANEBLADET. SKAL VÆRE SPECIFIK IFT. SEO -->
-  <title>KreaPlace</title>
-  <!-- LINK TIL CSS -->
-  <link rel="stylesheet" href="style/style.css">
-  <!-- BOGSTAVSÆT (Æ,Ø,Å) -->
-  <meta charset="utf-8">
-  <!-- ALT DET MAN KAN SE PÅ SKÆRMEN. GØR SÅDAN AT BILLEDER FYLDER DET SAMME - IFT PIXEL VIDDE OSV -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- BRUGES SOM SEO TIL AT FINDE SIDEN. LAV BESKRIVELSE AF SIDEN I CONTENT. OP TIL CIRKA 155 KARAKTERER -->
-  <meta name="description" content="SKRIV HER">
-  <!-- FONT -->
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- TITLE STÅR I FANEBLADET. SKAL VÆRE SPECIFIK IFT. SEO -->
+    <title>KreaPlace</title>
+    <!-- LINK TIL CSS -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- BOGSTAVSÆT (Æ,Ø,Å) -->
+    <meta charset="utf-8">
+    <!-- ALT DET MAN KAN SE PÅ SKÆRMEN. GØR SÅDAN AT BILLEDER FYLDER DET SAMME - IFT PIXEL VIDDE OSV -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BRUGES SOM SEO TIL AT FINDE SIDEN. LAV BESKRIVELSE AF SIDEN I CONTENT. OP TIL CIRKA 155 KARAKTERER -->
+    <meta name="description" content="SKRIV HER">
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- FLICKITY TIL SLIDESHOW -->
+    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
 </head>
 
 <body>
-  <main>
-    <!-- NAVIGATION START -->
-    <header>
-      <img id="navlogo" src="images/logo-kreaplace.png" alt="KreaPlace's Logo">
-      <nav>
-        <a href="pages/strik.html">Strik</a>
-        <a href="pages/haekling.html">Hækling</a>
-        <a href="pages/inspiration.html">Inspiration</a>
-        <a href="pages/omos.html">Om os</a>
-        <a href="pages/minside.html">Min side</a>
-      </nav>
-    </header>
-    <!-- NAVIGATION END -->
+    <main>
+        <!-- NAVIGATION START -->
+        <header>
+            <img id="navlogo" src="images/logo-kreaplace.png" alt="KreaPlace's Logo">
+            <nav>
+                <a href="pages/strik.html">Strik</a>
+                <a href="pages/haekling.html">Hækling</a>
+                <a href="pages/inspiration.html">Inspiration</a>
+                <a href="pages/omos.html">Om os</a>
+                <a href="pages/minside.html">Min side</a>
+            </nav>
+        </header>
+        <!-- NAVIGATION END -->
 
-    <!-- SEARCHBAR START -->
-    <section class="search-container">
-      <form action="/action_page.php">
-        <input type="text" placeholder="Søg..." name="search">
-        <button type="submit"><i></i></button>
-      </form>
-    </section>
-    <!-- SEARCHBAR END -->
+        <!-- SEARCHBAR START -->
+        <section class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Søg..." name="search">
+                <button type="submit"><i></i></button>
+            </form>
+        </section>
+        <!-- SEARCHBAR END -->
 
-    <!-- POPULÆRE OPSKRIFTER START -->
-    <h1>Mest populære opskrifter</h1>
-    <section class="populaere">
-      <div class="">
-        <img src="images/strik-roedstroempe.jpg" alt="Røde strik strømper">
-        <p>Strømper m. striber</p>
-      </div>
-      <div class="">
-        <img src="images/strik-sweater.jpg" alt="Strik sweater med mønster">
-        <p>Sweater m. mønster</p>
-      </div>
-      <div class="">
-        <img src="images/haekling-grydelapper.jpg" alt="Hæklede grydelapper">
-        <p>Grydelapper</p>
-      </div>
-    </section>
-    <!-- POPULÆRE OPSKRIFTER END -->
+        <!-- POPULÆRE OPSKRIFTER START 
+        <h1>Mest populære opskrifter</h1>
+        <section class="populaere">
+            <div class="">
+                <img src="images/strik-roedstroempe.jpg" alt="Røde strik strømper">
+                <p>Strømper m. striber</p>
+            </div>
+            <div class="">
+                <img src="images/strik-sweater.jpg" alt="Strik sweater med mønster">
+                <p>Sweater m. mønster</p>
+            </div>
+            <div class="">
+                <img src="images/haekling-grydelapper.jpg" alt="Hæklede grydelapper">
+                <p>Grydelapper</p>
+            </div>
+        </section>
+         POPULÆRE OPSKRIFTER END -->
+        <h1>Flickity - groupCells</h1>
+
+<!-- Flickity HTML init -->
+<div class="carousel" data-flickity='{ "groupCells": true }'>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+</div>
 
 
 
 
-  </main>
-  <script src="js/javascript.js"></script>
+
+
+    </main>
+    <script src="js/javascript.js"></script>
 </body>
 
 </html>
