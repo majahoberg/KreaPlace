@@ -412,8 +412,6 @@ Pop Up Vindu SLUT */
 
 .billedeGrid {
     display: grid;
-    grid-column: repeat(2, 1fr);
-    grid-row: repeat(2, 1fr);
     grid-gap: 30px;
     margin: auto 3%;
     width: 100%;
@@ -422,10 +420,8 @@ Pop Up Vindu SLUT */
 
 .billedeGrid-heakling {
     display: grid;
-    grid-column: repeat(2, 1fr);
-    grid-row: repeat(2, 1fr);
     grid-gap: 30px;
-    margin-right: auto 5%;
+    margin-right: auto;
     width: 60%;
     padding-bottom: 77px;
     padding-top: 0px;
